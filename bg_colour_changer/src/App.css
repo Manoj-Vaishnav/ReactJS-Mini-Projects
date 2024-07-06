@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding:0;
+}
+/* .top{
+  text-align: center;
+} */
+#box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2;
+}
+h1{
+  font-family: cursive;
+  font-size: xx-large;
+}
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:fit-content;
+  height:5vh;
+  background-color:white;
+  gap:5px;
+  border-radius: 5px;
+  padding:8px;
+}
+button{
+  padding:8px;
+  font-family: cursive; 
+  font-size: large;
+  border-radius: 10px;
+  border-style: none;
+  margin:10px;
+  cursor: pointer;
+}
+.red{
+ background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color:green;
+
+}
+.orange{
+  background-color:orange;
+}
+.yellow{
+  background-color: yellow;
+}
